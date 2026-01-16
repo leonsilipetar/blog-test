@@ -1,0 +1,18 @@
+---
+import Social from "./Social.astro";
+const platform = "github";
+const username = "leonsilipetar";
+---
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+
+<footer>
+    <Social platform="github" username=`${username}` />
+    <Social platform="instagram" username=`${username}` />
+    <a href="https://github.com/leonsilipetar/blog-test" rel="noopener noreferrer" target="_blank">Code for this website </a>
+</footer>
